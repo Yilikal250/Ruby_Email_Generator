@@ -11,7 +11,7 @@ email<<name.downcase.split.join(".")
 email<<"."
 email<<lastname.downcase
 email<<"@"
-email<<Company.downcase
+email<<Company.downcase.split.join
 email<<".com"
 
 puts email
