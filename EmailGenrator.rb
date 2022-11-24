@@ -7,7 +7,7 @@ print "Company:"
 Company= gets.chomp
 
 email= ""
-email<<name.downcase
+email<<name.downcase.split.join(".")
 email<<"."
 email<<lastname.downcase
 email<<"@"
